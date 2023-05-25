@@ -6,15 +6,16 @@ body {
   font-size: 16px;
 }
 .header {
-  background-color: aquamarine;
-  padding: 40px 0px;
-  &__black {
+  background-color: #151515;
+  padding: 40px 0px 45px 0px;
+  &__main {
+    // background-color: transparent;
   }
 
   &__inner {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
     column-gap: auto;
     justify-content: space-between;
   }

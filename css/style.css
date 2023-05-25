@@ -77,13 +77,13 @@ body {
 }
 
 .header {
-  background-color: aquamarine;
-  padding: 40px 0px;
+  background-color: #151515;
+  padding: 40px 0px 45px 0px;
 }
 .header__inner {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
   -moz-column-gap: auto;
        column-gap: auto;
   justify-content: space-between;

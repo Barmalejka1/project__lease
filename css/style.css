@@ -112,3 +112,45 @@ body {
   color: #ffffff;
   text-transform: uppercase;
 }
+
+.footer {
+  background-color: #151515;
+  padding: 50px 0px 32px 0px;
+  color: #ffffff;
+}
+.footer a {
+  color: inherit;
+}
+.footer__menu {
+  display: flex;
+  justify-content: space-around;
+}
+.footer__menu--title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120.8333333333%;
+}
+.footer__menu--list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+}
+.footer__menu--list p {
+  margin-bottom: 20px;
+}
+.footer__copy {
+  text-align: center;
+  max-width: 806px;
+  font-size: 12px;
+  line-height: 121%;
+}
+
+.appps__links {
+  margin: 50px 0px;
+  display: flex;
+  gap: 39px;
+  justify-content: center;
+}

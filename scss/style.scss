@@ -9,7 +9,6 @@ body {
   background-color: #151515;
   padding: 40px 0px 45px 0px;
   &__main {
-    // background-color: transparent;
   }
 
   &__inner {
@@ -48,4 +47,46 @@ body {
     color: #ffffff;
     text-transform: uppercase;
   }
+}
+//-----footer----//
+.footer {
+  background-color: #151515;
+  padding: 50px 0px 32px 0px;
+  color: #ffffff;
+  a {
+    color: inherit;
+  }
+  &__menu {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__menu--title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: calc(29 / 24) * 100%;
+  }
+
+  &__menu--list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(20.8 / 16) * 100%;
+    p {
+      margin-bottom: 20px;
+    }
+  }
+  &__copy {
+    text-align: center;
+    max-width: 806px;
+    font-size: 12px;
+    line-height: calc(14.52 / 12) * 100%;
+  }
+}
+.appps__links {
+  margin: 50px 0px;
+  display: flex;
+  gap: 39px;
+  justify-content: center;
 }

@@ -5,6 +5,11 @@ body {
   font-weight: 400;
   font-size: 16px;
 }
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
 .header {
   background-color: #151515;
   padding: 40px 0px 45px 0px;
@@ -48,6 +53,10 @@ body {
     text-transform: uppercase;
   }
 }
+//-----main----//
+.main {
+  flex-grow: 1;
+}
 //-----footer----//
 .footer {
   background-color: #151515;
@@ -56,9 +65,12 @@ body {
   a {
     color: inherit;
   }
+
   &__menu {
     display: flex;
     justify-content: space-around;
+  }
+  &__menu--item {
   }
   &__menu--title {
     font-weight: 700;
@@ -73,6 +85,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: calc(20.8 / 16) * 100%;
+    max-width: 225px;
     p {
       margin-bottom: 20px;
     }
@@ -82,11 +95,17 @@ body {
     max-width: 806px;
     font-size: 12px;
     line-height: calc(14.52 / 12) * 100%;
+    margin: 0 auto 30px;
   }
 }
 .appps__links {
   margin: 50px 0px;
   display: flex;
   gap: 39px;
+  justify-content: center;
+}
+.copy__nav-list {
+  display: flex;
+  gap: 40px;
   justify-content: center;
 }
